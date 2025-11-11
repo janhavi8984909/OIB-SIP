@@ -35,29 +35,10 @@ The dataset contains weekly sales information for multiple Walmart stores along 
 
 ---
 
-## GitHub Repository Structure
+## Working Structure
 
-walmart-sales-eda/
-│
-├── data/
-│   └── Walmart.csv
-│
-├── notebooks/
-│   └── walmart_sales_analysis.ipynb
-│
-├── src/
-│   ├── data_loader.py
-│   ├── data_cleaner.py
-│   ├── analyzer.py
-│   └── visualizer.py
-│
-├── reports/
-│   ├── figures/
-│   └── walmart_sales_report.pdf
-│
-├── requirements.txt
-├── README.md
-└── main.py
+<img width="336" height="576" alt="image" src="https://github.com/user-attachments/assets/ca26cb84-819c-4008-bc01-c6e9a8cdd83d" />
+
 
 ---
 
