@@ -155,5 +155,3 @@ Analyze seasonal trends in bookings
 Identify correlations between host activity and guest reviews
 
 Explore clustering techniques to segment neighborhoods by listing activity
-
-
