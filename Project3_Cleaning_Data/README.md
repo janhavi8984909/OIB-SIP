@@ -24,7 +24,7 @@ The goal is to prepare the dataset for analysis, identify trends, and explore pa
 - **Entries:** ~49,500 listings  
 - **Features:** Listing IDs, host information, neighborhood, property type, price, reviews, availability, and ratings  
 
-### Key Questions
+## Key Questions
 - Which areas have the highest concentration of listings?  
 - How do prices vary across neighborhoods and property types?  
 - Who are the busiest hosts and what factors contribute to their activity?  
@@ -61,28 +61,32 @@ The goal is to prepare the dataset for analysis, identify trends, and explore pa
 git clone https://github.com/yourusername/NYC-Airbnb-Data-Cleaning.git
 cd NYC-Airbnb-Data-Cleaning
 
-Create Virtual Environment
+---
 
-for macOS/Linux:
+## Create Virtual Environment
+
+### for macOS/Linux:
 
 bash
 python -m venv venv
 source venv/bin/activate
 
-for Windows:
+### for Windows:
 
 bash
 python -m venv venv
 venv\Scripts\activate
 
-Install Dependencies
+### Install Dependencies
 
 bash
 pip install -r requirements.txt
 
-Usage
+---
 
-Run Analysis Script
+## Usage
+
+### Run Analysis Script
 
 bash
 python scripts/run_analysis.py
@@ -99,24 +103,24 @@ Save cleaned data in data/processed/
 
 Output charts and figures in reports/figures/
 
-Run Jupyter Notebooks
+### Run Jupyter Notebooks
 
-Data Exploration:
+#### Data Exploration:
 
 bash
 jupyter notebook notebooks/01_data_exploration.ipynb
 
-Data Cleaning:
+#### Data Cleaning:
 
 bash
 jupyter notebook notebooks/02_data_cleaning.ipynb
 
-Analysis & Visualization:
+#### Analysis & Visualization:
 
 bash
 jupyter notebook notebooks/03_analysis.ipynb
 
-Sample Insights (Updated Values)
+## Sample Insights (Updated Values)
 
 Average price per night across NYC listings: $145
 
@@ -126,7 +130,7 @@ Top 3 busiest neighborhoods: Manhattan, Brooklyn, Queens
 
 Number of active hosts with >50 listings: 220
 
-Folder Structure
+## Folder Structure
 
 bash
 data/           # Raw and processed datasets
@@ -136,13 +140,13 @@ reports/        # Visualizations and summaries
 requirements.txt
 README.md
 
-Tools & Technologies
+## Tools & Technologies
 
 Python Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
 
 Environment: Jupyter Notebook, VS Code
 
-Future Work
+## Future Work
 
 Predict listing occupancy based on location and price
 
@@ -151,4 +155,5 @@ Analyze seasonal trends in bookings
 Identify correlations between host activity and guest reviews
 
 Explore clustering techniques to segment neighborhoods by listing activity
+
 
