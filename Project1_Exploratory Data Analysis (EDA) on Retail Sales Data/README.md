@@ -73,8 +73,3 @@ This solution provides valuable insights into Walmart’s sales patterns and hel
 ## 📂 Project Structure
 
 ---
-
-## 🧾 Author
-**Janhavi Raghu**  
-📧 Email: [janhaviraghu@gmail.com]  
-🌐 GitHub: [https://github.com/Git5321003](https://github.com/Git5321003)
