@@ -35,6 +35,32 @@ The dataset contains weekly sales information for multiple Walmart stores along 
 
 ---
 
+## GitHub Repository Structure
+
+walmart-sales-eda/
+│
+├── data/
+│   └── Walmart.csv
+│
+├── notebooks/
+│   └── walmart_sales_analysis.ipynb
+│
+├── src/
+│   ├── data_loader.py
+│   ├── data_cleaner.py
+│   ├── analyzer.py
+│   └── visualizer.py
+│
+├── reports/
+│   ├── figures/
+│   └── walmart_sales_report.pdf
+│
+├── requirements.txt
+├── README.md
+└── main.py
+
+---
+
 ## ⚙️ Approach / Methodology
 1. **Data Cleaning & Preprocessing**
    - Handled missing values and outliers.
