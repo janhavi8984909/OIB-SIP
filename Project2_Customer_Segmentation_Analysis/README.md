@@ -3,7 +3,7 @@
 ## Project Idea
 Customer Segmentation Analysis
 
---
+---
 
 ## Project Overview
 Understanding customer behavior is critical for effective marketing. Customer segmentation involves grouping customers based on shared attributes, purchase habits, or demographic information. By identifying distinct segments, companies can tailor their marketing campaigns to improve engagement, sales, and customer satisfaction.  
@@ -15,7 +15,7 @@ This project performs **customer segmentation analysis** using clustering techni
 ## Project Structure
 <img width="582" height="221" alt="image" src="https://github.com/user-attachments/assets/120f6bb0-43e7-4ded-9e9a-95e4afb29a3d" />
 
---
+---
 
 ## Project Goals
 - Clean and prepare customer data for analysis.  
@@ -106,3 +106,4 @@ This project performs **customer segmentation analysis** using clustering techni
 
 ## Conclusion
 This analysis highlights the importance of customer segmentation in marketing strategy. By identifying four distinct customer segments, companies can deliver tailored campaigns that maximize engagement and sales. The insights generated from this project provide actionable directions for marketing, product promotion, and customer relationship management.
+
