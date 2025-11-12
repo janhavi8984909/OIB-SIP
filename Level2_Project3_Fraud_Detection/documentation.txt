@@ -30,13 +30,16 @@ Run the complete pipeline:
 
 bash
 python main.py --mode full
+
 Run specific stages:
 
 bash
 python main.py --mode preprocess
 python main.py --mode train
 python main.py --mode evaluate
+
 Configuration
+
 Edit the YAML files in configuration/ to modify:
 
 Model parameters

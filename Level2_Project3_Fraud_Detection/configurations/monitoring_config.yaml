@@ -1,0 +1,17 @@
+# configuration/monitoring_config.yaml
+real_time:
+  batch_size: 1000
+  update_interval: 60  # seconds
+  alert_threshold: 0.8
+  max_consecutive_alerts: 3
+
+anomaly_detection:
+  method: isolation_forest
+  contamination: 0.01
+  window_size: 10000
+
+performance_monitoring:
+  drift_detection: true
+  retrain_interval: 100000  # transactions
+  performance_threshold: 0.85
+  
