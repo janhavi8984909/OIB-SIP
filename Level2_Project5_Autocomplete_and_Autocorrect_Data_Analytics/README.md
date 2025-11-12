@@ -22,7 +22,7 @@ Unlike earlier versions that focused on algorithm implementation, this project i
 
 ---
 
-## 🧩 Difference from Previous Project of Same Data but Different Purpose
+## 🧩 Difference from Previous Project of Same Data Set but Different Applications
 
 | Aspect | Previous Project | Current Project |
 |--------|------------------|-----------------|
@@ -169,4 +169,5 @@ Integrate personalized context adaptation for user typing behavior.
 Explore real-time deployment in chatbots and virtual keyboards.
 
 Incorporate reinforcement learning for adaptive correction.
+
 
