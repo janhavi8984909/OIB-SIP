@@ -1,0 +1,59 @@
+# README.md
+# Credit Card Fraud Detection System
+
+A machine learning system for detecting fraudulent credit card transactions using various classification algorithms.
+
+## Project Structure
+credit-card-fraud-detection/
+├── data/ # Data storage
+├── src/ # Source code
+├── notebooks/ # Jupyter notebooks
+├── models/ # Trained models
+├── results/ # Output results
+└── configuration/ # Configuration files
+
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/credit-card-fraud-detection.git
+cd credit-card-fraud-detection
+
+2. Install dependencies:
+pip install -r requirements.txt
+
+3. Download the dataset and place it in data/raw/creditcard.csv
+
+Usage
+Run the complete pipeline:
+
+bash
+python main.py --mode full
+Run specific stages:
+
+bash
+python main.py --mode preprocess
+python main.py --mode train
+python main.py --mode evaluate
+Configuration
+Edit the YAML files in configuration/ to modify:
+
+Model parameters
+
+Preprocessing steps
+
+Monitoring settings
+
+Results
+View generated results in:
+
+results/figures/ - Visualization plots
+
+results/reports/ - Evaluation reports
+
+models/ - Trained model files
+
+text
+
+This completes the comprehensive project structure with all necessary Python code files. The project is now ready for implementation and can be executed using the main pipeline.
