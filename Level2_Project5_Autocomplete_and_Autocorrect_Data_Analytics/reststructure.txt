@@ -1,0 +1,155 @@
+3. Data Preprocessing Pipeline
+
+a. Credit Card Data
+
+Feature Scaling: Standardize Time and Amount features
+
+Class Balancing: Apply SMOTE and undersampling
+
+Train-Test Split: Stratified sampling
+
+
+b. Text Data
+
+Text Cleaning: Remove punctuation, lowercasing
+
+Tokenization: Split text into words/sentences
+
+Normalization: Stemming, lemmatization
+
+Vocabulary Building: Create word frequency dictionary
+
+
+
+4. Data Storage
+
+a. File Formats
+
+CSV: Credit card transaction data
+
+TXT: Raw text corpora
+
+JSON: Processed text data, configuration
+
+PKL: Serialized models and objects
+
+
+b. Directory Structure
+
+01_data/
+├── raw/           # Original, unprocessed data
+├── processed/     # Cleaned and transformed data
+└── external/      # Third-party datasets
+
+
+
+5. Data Privacy and Ethics
+
+a. Credit Card Data
+
+Already anonymized through PCA
+
+No personally identifiable information
+
+Used only for academic/research purposes
+
+
+b. Text Data
+
+Respect copyright and terms of use
+
+Remove sensitive personal information
+
+Ensure appropriate data licensing
+
+
+
+6. Data Validation
+
+a. Credit Card Data
+
+Check for null values
+
+Validate feature distributions
+
+Verify class imbalance ratio
+
+
+b. Text Data
+
+Validate text encoding
+
+Check for corrupted files
+
+Assess vocabulary coverage
+
+
+
+7. Version Control
+
+a. Data Versioning
+
+Keep raw data immutable
+
+Version processed datasets
+
+Document preprocessing steps
+
+
+b. Model Versioning
+
+Track model performance with data versions
+
+Maintain reproducibility
+
+Document training data characteristics
+
+
+### `06_docs/api_documentation.md`
+
+```markdown
+# API Documentation
+
+## Overview
+This document describes the APIs for the Fraud Detection and NLP Analytics systems.
+
+## 1. Fraud Detection API
+
+### DataLoader Class
+```python
+from src.fraud_detection.data_loader import DataLoader
+
+# Initialize loader
+loader = DataLoader()
+
+# Load credit card data
+data = loader.load_credit_card_data("creditcard.csv")
+
+
+
+Methods
+
+load_credit_card_data(file_name): Load dataset from CSV file
+
+Returns: pandas DataFrame with transaction data
+
+
+
+DataPreprocessor Class
+
+from src.fraud_detection.preprocessing import DataPreprocessor
+
+# Initialize preprocessor
+preprocessor = DataPreprocessor(test_size=0.2, random_state=42)
+
+# Preprocess data
+processed_data = preprocessor.preprocess_data(data)
+
+
+Methods
+
+preprocess_data(data): Main preprocessing pipeline
+
+transform_new_data(X): Transform new data using fitted scalers
+
+Returns: Dictionary with train/test splits and feature information
